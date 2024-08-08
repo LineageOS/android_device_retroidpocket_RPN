@@ -25,8 +25,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-RPN-Overlay \
-    Settings-RPN-Overlay \
-    SettingsProvider-RPN-Overlay
+    Settings-RPN-Overlay
 
 # Recovery
 PRODUCT_PACKAGES += \
