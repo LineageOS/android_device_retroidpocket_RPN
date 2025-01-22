@@ -11,5 +11,9 @@ include device/ayn/qcs8550-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 320
 
+# Properties
+DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
+TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
+
 # Include the proprietary files BoardConfig.
 include vendor/retroidpocket/RPN/BoardConfigVendor.mk
