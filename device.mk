@@ -10,6 +10,12 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_WIDTH := 1280
 TARGET_SCREEN_HEIGHT := 960
 
+# Overlay
+PRODUCT_PACKAGES += \
+    Frameworks-RPN-Overlay \
+    Settings-RPN-Overlay \
+    SettingsProvider-RPN-Overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
