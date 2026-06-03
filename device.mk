@@ -10,6 +10,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_WIDTH := 1280
 TARGET_SCREEN_HEIGHT := 960
 
+# Joystick
+PRODUCT_PACKAGES += \
+    left_stick_axis_swap
+
 # MCU
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mcu/mcuapp_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcuapp_firmware.txt
