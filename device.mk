@@ -10,6 +10,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_WIDTH := 1280
 TARGET_SCREEN_HEIGHT := 960
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_rgb
+
 # Joystick
 PRODUCT_PACKAGES += \
     left_stick_axis_swap
