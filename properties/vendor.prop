@@ -1,2 +1,5 @@
 # Bluetooth
 bluetooth.device.default_name=Retroid Pocket Nova
+
+# Sensors
+ro.vendor.sensors.orientation=ORIENTATION_90
